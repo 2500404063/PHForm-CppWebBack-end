@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHForm 功能演示程序</title>
+    <script src="js/PHForm.js"></script>
+    <script src="js/script.js"></script>
+    <script src="css/animation/animation.js"></script>
+    <link rel="stylesheet" href="css/widget/widget.css">
+    <link rel="stylesheet" href="css/animation/animation.css">
+    <link rel="stylesheet" href="css/color/color.css">
+    <link rel="stylesheet" href="css/layout/layout.css">
+</head>
+
+<body class="layout-height-full" onload="Run();">
+    <div class="layout-flex-hcenter layout-flex-vcenter color-font-white">
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);GET();">同步GET演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);POST();">同步POST演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);AGET();">异步GET演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);APOST();">异步POST演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);LGET();">循环GET演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);LPOST();">循环POST演示</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);CancelGET();">取消循环GET</div>
+        <div class="button-round button-normal color-bg-blackcyan" onclick="anim_scale(this);CancelPOST();">取消循环POST</div>
+    </div>
+    <br>
+    <div class="color-font-black layout-flex-hcenter">
+        <textarea id="logout" style="display:block;" class="layout-width-80 layout-height-500">{{TIP}}{{CONTENT}}</textarea>
+    </div>
+
+</body>
+
+</html>

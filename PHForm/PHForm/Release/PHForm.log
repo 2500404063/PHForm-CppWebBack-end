@@ -1,0 +1,13 @@
+﻿  http.cpp
+  PHForm.cpp
+  Start.cpp
+  sun_epoll.cpp
+  sun_iocp.cpp
+  sun_socket.cpp
+E:\PengStudio\PHForm\PHForm_Source\PHForm\PHForm\PHForm.cpp(82,16): warning C4244:  “参数”: 从“std::streamoff”转换到“const unsigned int”，可能丢失数据
+    正在创建库 E:\PengStudio\PHForm\PHForm_Source\PHForm\Release\PHForm.lib 和对象 E:\PengStudio\PHForm\PHForm_Source\PHForm\Release\PHForm.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1248 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  PHForm.vcxproj -> E:\PengStudio\PHForm\PHForm_Source\PHForm\Release\PHForm.exe
